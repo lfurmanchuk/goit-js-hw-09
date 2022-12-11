@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  font-family: ‘Share Tech Mono’, monospace;
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #2b42ef;
+  text-shadow: 0 0 20px rgb(223, 237, 27), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.field {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.value {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
